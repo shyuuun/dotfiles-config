@@ -15,6 +15,17 @@ This repository contains my configs in:
 - Kitty
 
 
+## Getting started
+
+- Copy this repo to your `$HOME` .e.g. `git clone https://github.com/shyuuun/dotfiles-config.git`
+- Link the cloned repo to your `.config` folder 
+
+```bash
+  ln -s "$(pwd)/nvim" ~/.config/nvim  
+  ln -s ~/dotfiles-config/.zshrc ~/.zshrc
+```
+
+
 ## TODO: 
 
 - Copy the configs coming from hyprdots.
