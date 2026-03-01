@@ -21,7 +21,8 @@ This repository contains my configs in:
 - Link the cloned repo to your `.config` folder 
 
 ```bash
-  ln -s "$(pwd)/nvim" ~/.config/nvim  
+  ln -s ~/dotfiles-config/kitty ~/.config/nvim  
+  ln -s ~/dotfiles-config/kitty ~/.config/kitty
   ln -s ~/dotfiles-config/.zshrc ~/.zshrc
 ```
 
