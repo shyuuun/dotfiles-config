@@ -118,6 +118,8 @@ alias gch="git checkout"
 
 alias ff="fastfetch"
 
+alias drive="cd /Volumes/fred-external/"
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -128,3 +130,8 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # opencode
 export PATH=/Users/m1/.opencode/bin:$PATH
+
+
+# Flutter
+# NOTE: This is saved in external drive
+export PATH=/Volumes/fred-external/development/flutter/bin
