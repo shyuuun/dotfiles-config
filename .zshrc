@@ -133,5 +133,13 @@ export PATH=/Users/m1/.opencode/bin:$PATH
 
 
 # Flutter
-# NOTE: This is saved in external drive
-export PATH=/Volumes/fred-external/development/flutter/bin
+export PATH=/Volumes/fred-external/development/flutter/bin:$PATH
+
+# https://developer.android.com/tools/variables
+export ANDROID_AVD_HOME="/Volumes/fred-external/development/android/avd"
+export ANDROID_HOME="/Volumes/fred-external/development/android"
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+
+# OpenJDK
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
