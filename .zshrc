@@ -139,7 +139,12 @@ export PATH=/Volumes/fred-external/development/flutter/bin:$PATH
 export ANDROID_AVD_HOME="/Volumes/fred-external/development/android/avd"
 export ANDROID_HOME="/Volumes/fred-external/development/android"
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 
 # OpenJDK
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+
+# Flutter Demon
+export PATH="/Users/m1/.local/bin:$PATH"
