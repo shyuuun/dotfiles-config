@@ -1,0 +1,37 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "space f f": "file_finder::Toggle",
+      "space e": "workspace::ToggleLeftDock",
+      "space b": "pane::ActivateNextItem",
+      "space q": "pane::CloseActiveItem",
+      "space h": "pane::ActivatePreviousItem",
+      "ctrl-h": "workspace::ActivatePaneRight",
+      "ctrl-l": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-w l": "pane::SplitRight",
+      "ctrl-w h": "pane::SplitLeft",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-h": null,
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-l": null,
+    },
+  },
+]

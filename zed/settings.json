@@ -1,0 +1,75 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400.0,
+  "show_edit_predictions": false,
+  "edit_predictions": {
+    "provider": "zed"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true
+    },
+    "disable_git": true
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "session": {
+    "trust_all_worktrees": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "terminal": {
+    "font_size": 14.0
+  },
+  "base_keymap": "VSCode",
+  "relative_line_numbers": "enabled",
+  "sticky_scroll": {
+    "enabled": false
+  },
+  "gutter": {
+    "line_numbers": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "cursor_blink": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 5000
+    }
+  },
+  "buffer_font_fallbacks": [
+    "Cascadia Code",
+    "delugia",
+    "monospace"
+  ],
+  "buffer_font_family": ".ZedMono",
+  "file_types": {
+    "css": [
+      "*.css"
+    ]
+  },
+  "tab_size": 2,
+  "ui_font_size": 16,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha"
+  },
+}
