@@ -148,3 +148,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # Flutter Demon
 export PATH="/Users/m1/.local/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/m1/.antigravity/antigravity/bin:$PATH"
+alias pip='python3 -m pip'
