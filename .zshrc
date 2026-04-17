@@ -118,6 +118,8 @@ alias gch="git checkout"
 
 alias ff="fastfetch"
 
+alias cl="clear"
+
 alias drive="cd /Volumes/fred-external/"
 
 
