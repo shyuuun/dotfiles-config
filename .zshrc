@@ -131,11 +131,16 @@ export NVM_DIR="$HOME/.nvm"
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # opencode
-export PATH=/Users/m1/.opencode/bin:$PATH
+export PATH="/Users/m1/.opencode/bin:$PATH"
 
 
 # Flutter
-export PATH=/Volumes/fred-external/development/flutter/bin:$PATH
+export PATH="/Volumes/fred-external/development/flutter/bin:$PATH"
+
+# Pub Cache location https://dart.dev/tools/pub/environment-variables
+export PUB_CACHE="/Volumes/fred-external/development/.pub-cache"
+
+export PATH="$PATH:$PUB_CACHE/bin"
 
 # https://developer.android.com/tools/variables
 export ANDROID_AVD_HOME="/Volumes/fred-external/development/android/avd"
