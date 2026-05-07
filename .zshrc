@@ -1,3 +1,5 @@
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/Users/m1/.zsh/completions:"* ]]; then export FPATH="/Users/m1/.zsh/completions:$FPATH"; fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -159,3 +161,7 @@ export PATH="/Users/m1/.local/bin:$PATH"
 # Added by Antigravity
 export PATH="/Users/m1/.antigravity/antigravity/bin:$PATH"
 alias pip='python3 -m pip'
+. "/Users/m1/.deno/env"
+# Initialize zsh completions (added by deno install script)
+autoload -Uz compinit
+compinit
